@@ -20,10 +20,43 @@
 		<Item Name="PrimaryInterfaceIsNewDataAvailable.vi" Type="VI" URL="../PrimaryInterface/PrimaryInterfaceIsNewDataAvailable.vi"/>
 		<Item Name="PrimaryInterfaceGetState.vi" Type="VI" URL="../PrimaryInterface/PrimaryInterfaceGetState.vi"/>
 		<Item Name="PrimaryInterfaceGetData.vi" Type="VI" URL="../PrimaryInterface/PrimaryInterfaceGetData.vi"/>
-		<Item Name="PrimaryInterfaceGetStartupData.vi" Type="VI" URL="../PrimaryInterface/PrimaryInterfaceGetStartupData.vi"/>
+		<Item Name="PrimaryInterfaceGetVariableByName.vi" Type="VI" URL="../PrimaryInterface/PrimaryInterfaceGetVariableByName.vi"/>
+		<Item Name="PrimaryInterfaceGetVariables.vi" Type="VI" URL="../PrimaryInterface/PrimaryInterfaceGetVariables.vi"/>
+		<Item Name="PrimaryInterfaceGetVariableValue.vi" Type="VI" URL="../PrimaryInterface/PrimaryInterfaceGetVariableValue.vi"/>
+		<Item Name="PrimaryInterfaceSendScript.vi" Type="VI" URL="../PrimaryInterface/PrimaryInterfaceSendScript.vi"/>
 	</Item>
 	<Item Name="lib" Type="Folder">
 		<Item Name="UnderAutomation.UniversalRobots.dll" Type="Document" URL="../lib/UnderAutomation.UniversalRobots.dll"/>
+	</Item>
+	<Item Name="Dashboard" Type="Folder">
+		<Item Name="DashboardPowerOn.vi" Type="VI" URL="../Dashboard/DashboardPowerOn.vi"/>
+		<Item Name="DashboardReleaseBrake.vi" Type="VI" URL="../Dashboard/DashboardReleaseBrake.vi"/>
+		<Item Name="DashboardPowerOff.vi" Type="VI" URL="../Dashboard/DashboardPowerOff.vi"/>
+		<Item Name="DashboardShutdown.vi" Type="VI" URL="../Dashboard/DashboardShutdown.vi"/>
+		<Item Name="DashboardGetRobotMode.vi" Type="VI" URL="../Dashboard/DashboardGetRobotMode.vi"/>
+		<Item Name="DashboardUnlockProtectiveStop.vi" Type="VI" URL="../Dashboard/DashboardUnlockProtectiveStop.vi"/>
+		<Item Name="DashboardLoadProgram.vi" Type="VI" URL="../Dashboard/DashboardLoadProgram.vi"/>
+		<Item Name="DashboardGetLoadedProgram.vi" Type="VI" URL="../Dashboard/DashboardGetLoadedProgram.vi"/>
+		<Item Name="DashboardPlay.vi" Type="VI" URL="../Dashboard/DashboardPlay.vi"/>
+		<Item Name="DashboardPause.vi" Type="VI" URL="../Dashboard/DashboardPause.vi"/>
+		<Item Name="DashboardStop.vi" Type="VI" URL="../Dashboard/DashboardStop.vi"/>
+		<Item Name="DashboardGetVariable.vi" Type="VI" URL="../Dashboard/DashboardGetVariable.vi"/>
+		<Item Name="DashboardGetProgramState.vi" Type="VI" URL="../Dashboard/DashboardGetProgramState.vi"/>
+		<Item Name="DashboardIsProgramSaved.vi" Type="VI" URL="../Dashboard/DashboardIsProgramSaved.vi"/>
+		<Item Name="DashboardShowPopup.vi" Type="VI" URL="../Dashboard/DashboardShowPopup.vi"/>
+		<Item Name="DashboardClosePopup.vi" Type="VI" URL="../Dashboard/DashboardClosePopup.vi"/>
+		<Item Name="DashboardAddToLog.vi" Type="VI" URL="../Dashboard/DashboardAddToLog.vi"/>
+		<Item Name="DashboardGetPolyscopeVersion.vi" Type="VI" URL="../Dashboard/DashboardGetPolyscopeVersion.vi"/>
+		<Item Name="DashboardGetSerialNumber.vi" Type="VI" URL="../Dashboard/DashboardGetSerialNumber.vi"/>
+		<Item Name="DashboardLoadInstallation.vi" Type="VI" URL="../Dashboard/DashboardLoadInstallation.vi"/>
+		<Item Name="DashboardGetRobotModel.vi" Type="VI" URL="../Dashboard/DashboardGetRobotModel.vi"/>
+		<Item Name="DashboardGetOperationalMode.vi" Type="VI" URL="../Dashboard/DashboardGetOperationalMode.vi"/>
+		<Item Name="DashboardClearOperationalMode.vi" Type="VI" URL="../Dashboard/DashboardClearOperationalMode.vi"/>
+		<Item Name="DashboardSetOperationalMode.vi" Type="VI" URL="../Dashboard/DashboardSetOperationalMode.vi"/>
+		<Item Name="DashboardIsInRemoteControl.vi" Type="VI" URL="../Dashboard/DashboardIsInRemoteControl.vi"/>
+		<Item Name="DashboardGetSafetyStatus.vi" Type="VI" URL="../Dashboard/DashboardGetSafetyStatus.vi"/>
+		<Item Name="DashboardRestartSafety.vi" Type="VI" URL="../Dashboard/DashboardRestartSafety.vi"/>
+		<Item Name="DashboardCloseSafetyPopup.vi" Type="VI" URL="../Dashboard/DashboardCloseSafetyPopup.vi"/>
 	</Item>
 	<Item Name="Documentation" Type="Hyperlink">
 		<Property Name="NI.Address" Type="Str">https://underautomation.com/universal-robots/documentation/get-started-labview</Property>

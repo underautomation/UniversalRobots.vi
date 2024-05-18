@@ -25,6 +25,7 @@
 			<Item Name="1.Basic demo.vi" Type="VI" URL="../Examples/1.Basic demo.vi"/>
 			<Item Name="2.Rtde.vi" Type="VI" URL="../Examples/2.Rtde.vi"/>
 			<Item Name="3.Rtde.vi" Type="VI" URL="../Examples/3.Rtde.vi"/>
+			<Item Name="4.Dashboard.vi" Type="VI" URL="../UnderAutomation.UniversalRobots/Resources/4.Dashboard.vi"/>
 		</Item>
 		<Item Name="UnderAutomation.UniversalRobots.lvlib" Type="Library" URL="../UnderAutomation.UniversalRobots/UnderAutomation.UniversalRobots.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
