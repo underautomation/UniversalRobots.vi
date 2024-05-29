@@ -62,4 +62,5 @@
 		<Property Name="NI.Address" Type="Str">https://underautomation.com/universal-robots/documentation/get-started-labview</Property>
 	</Item>
 	<Item Name="ConnectToRobot.vi" Type="VI" URL="../ConnectToRobot.vi"/>
+	<Item Name="RegisterLicense.vi" Type="VI" URL="../RegisterLicense.vi"/>
 </Library>
