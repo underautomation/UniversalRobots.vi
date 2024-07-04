@@ -18,7 +18,7 @@ jobs:
       run: |
         for dir in LabVIEW_*; do
           if [ -d "$dir" ]; then
-            zip -r "${dir}.zip" "$dir"
+            zip -r "UnderAutomation.UniversalRobots_${dir}.zip" "$dir"
           fi
         done
 
