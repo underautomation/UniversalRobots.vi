@@ -33,12 +33,9 @@ jobs:
         draft: false
         prerelease: false
 
-    - name: Upload Release Assets
-      uses: actions/upload-release-asset@v1
+    - name: Upload release assets
+      uses: alexellis/upload-assets@0.4.0
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ github.token }}
       with:
-        upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: '*.zip'
-        asset_name: ${{ github.ref }}-zips
-        asset_content_type: application/zip
+        asset_paths: '[".*.zip"]'
