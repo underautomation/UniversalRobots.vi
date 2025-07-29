@@ -14,3 +14,4 @@
 *.aliases
 *.lvlps
 .cache/
+/LabVIEW_2024/*.ini
