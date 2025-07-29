@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="16008000">
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*F!!!*Q(C=\:5R=C)R%%7`81[==I-NQEH\!BM1-R&amp;8[!M15*-ZZ!I&gt;T!7Y!F@I+X!&amp;QEG^4U,F9&lt;=-*(&lt;6"J&lt;I1@S7ON_U6%+K\66[U@OD.FR;,Z7P^32VQ^T_]8?8S$@^UHL9]BBP_I&gt;RH/\\7&lt;_^(8]9*H8D(@^;UWV_(J0[]:[`?\!?GT\RFV@@&gt;I7`PZYQ_S_F7Q^`4ZD^1^^V86]'9T^8_/(W[;@^N0PN\?%B_P&lt;T^;2S%7'*"?;9K92`4`2%4`2%4`2%$`2!$`2!$`2!&gt;X2(&gt;X2(&gt;X2(.X2$.X2$.X2$LRV&gt;[%)8/EB*]C22%D1*E%Q'2=EDY5FY%J[%BZ^+?"+?B#@B38C9II1HY5FY%J[%BW6+?"+?B#@B38A)65GS&gt;H2Y%B\#+_!*?!+?A#@A);5#HA!A3"9%$I+!I=!:$!+?A#@A9;C!*_!*?!+?A!?X!J[!*_!*?!)?FN3K2+5J(2U?QMDB=8A=(I@(Y3'U("[(R_&amp;R?"Q?UMHB=8A=##?B%RQ%/9O=#=Y0B]@BY5M/D]0D]$A]$A_OOE.?+V.I3E?(R_!R?!Q?A]@A)91-(I0(Y$&amp;Y$"\#SO!R?!Q?A]@A):5-(I0(Y$&amp;!D+3EFR(-7'B--A3$BU]^,6:X+3K*V3[VQ[NW+.5/G^IB5DM=;JOONJFKG[27@,7CKB6,L1BK,[='L1;DFE2N=:GI-]]4&gt;M1/W"\&lt;92NMB3WR26H[R200Z\./JZ//R[-/BY0W_\VWOZUWGYV7KZ77S[57C]8(.@#,`H%B8/[F.]98?W\W_WH78K`'MXXB`^Z`=$@K7&gt;?RK.%@B0\=+A!!!!!</Property>
@@ -69,10 +69,12 @@
 		<Item Name="SftpListDirectory.vi" Type="VI" URL="../SFTP/SftpListDirectory.vi"/>
 		<Item Name="SftpDelete.vi" Type="VI" URL="../SFTP/SftpDelete.vi"/>
 		<Item Name="SftpCreateDirectory.vi" Type="VI" URL="../SFTP/SftpCreateDirectory.vi"/>
+		<Item Name="SftpGetState.vi" Type="VI" URL="../SFTP/SftpGetState.vi"/>
 	</Item>
 	<Item Name="Documentation" Type="Hyperlink">
 		<Property Name="NI.Address" Type="Str">https://underautomation.com/universal-robots/documentation/get-started-labview</Property>
 	</Item>
 	<Item Name="ConnectToRobot.vi" Type="VI" URL="../ConnectToRobot.vi"/>
 	<Item Name="RegisterLicense.vi" Type="VI" URL="../RegisterLicense.vi"/>
+	<Item Name="DisconnectFromRobot.vi" Type="VI" URL="../DisconnectFromRobot.vi"/>
 </Library>

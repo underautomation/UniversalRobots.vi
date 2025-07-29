@@ -69,10 +69,12 @@
 		<Item Name="SftpListDirectory.vi" Type="VI" URL="../SFTP/SftpListDirectory.vi"/>
 		<Item Name="SftpDelete.vi" Type="VI" URL="../SFTP/SftpDelete.vi"/>
 		<Item Name="SftpCreateDirectory.vi" Type="VI" URL="../SFTP/SftpCreateDirectory.vi"/>
+		<Item Name="SftpGetState.vi" Type="VI" URL="../SFTP/SftpGetState.vi"/>
 	</Item>
 	<Item Name="Documentation" Type="Hyperlink">
 		<Property Name="NI.Address" Type="Str">https://underautomation.com/universal-robots/documentation/get-started-labview</Property>
 	</Item>
 	<Item Name="ConnectToRobot.vi" Type="VI" URL="../ConnectToRobot.vi"/>
 	<Item Name="RegisterLicense.vi" Type="VI" URL="../RegisterLicense.vi"/>
+	<Item Name="DisconnectFromRobot.vi" Type="VI" URL="../DisconnectFromRobot.vi"/>
 </Library>
