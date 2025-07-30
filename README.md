@@ -1,3 +1,8 @@
+# Universal Robots LabVIEW Library
+
+<p align="center">
+    <img width="100%" alt="Fanuc LabVIEW Library" src="https://raw.githubusercontent.com/underautomation/UniversalRobots.vi/refs/heads/main/.github/assets/banner.png" >
+</p>
 
 [![LABView 2010](https://img.shields.io/badge/LABView-2010-yellow?logo=LabVIEW)](#)
 [![LABView 2011](https://img.shields.io/badge/LABView-2011-yellow?logo=LabVIEW)](#)
@@ -15,11 +20,56 @@
 [![LABView 2023](https://img.shields.io/badge/LABView-2023-yellow?logo=LabVIEW)](#)
 [![LABView 2024](https://img.shields.io/badge/LABView-2024-yellow?logo=LabVIEW)](#)
 
-# UniversalRobots.vi
+### 🤖 Effortlessly Communicate with Universal Robots
 
-Connect your Universal Robots cobot to your LabVIEW program
+The **Universal Robots SDK** enables seamless integration with Universal Robots for automation, data exchange, and remote control. Ideal for industrial automation, research, and advanced robotics applications.
 
-![image](https://github.com/underautomation/UniversalRobots.vi/assets/22075796/54c9a614-5cf7-419d-8a49-c5498d78c76b)
+🔗 **More Information:** [https://underautomation.com/universal-robots](https://underautomation.com/universal-robots)  
+🔗 Also available for **[🟦 .NET](https://github.com/underautomation/UniversalRobots.NET)** & **[🐍 Python](https://github.com/underautomation/UniversalRobots.py)** & [🧊 Unity](https://github.com/underautomation/UniversalRobots.Unity)
+
+---
+
+[⭐ Star if you like it !](https://github.com/underautomation/UniversalRobots.vi/stargazers)
+
+[👁️ Watch to be notified of latest updates !](https://github.com/underautomation/UniversalRobots.vi/watchers)
+
+---
+
+## 🚀 TL;DR (Too Long; Didn’t Read)
+
+✔️ **Full RTDE Support** – Read & write at up to **500Hz**  
+✔️ **Send URScript Commands** – Control robots in real-time  
+✔️ **Dashboard Server** – Manage power, programs, and states  
+✔️ **Secure Connections** – SSH & SFTP support  
+✔️ **Multiple versions of LV** – 2010+  
+✔️ **Commercial License** – Deploy with no royalties
+
+📹 **Watch Introduction Video**
+
+https://user-images.githubusercontent.com/47540360/143318635-6d6aaaf4-5642-457a-8ff1-4322f2defe82.mp4
+
+---
+
+## 📥 Download Example Applications
+
+Explore the **Fanuc SDK** with fully functional example applications for your LabVIEW version.
+
+📌 **Download:** [📥 UnderAutomation.UniversalRobots.lvproj](https://github.com/underautomation/UniversalRobots.vi/releases)
+
+<p align="center">
+    <img height="250" src="https://raw.githubusercontent.com/underautomation/UniversalRobots.vi/refs/heads/main/.github/assets/main-demo-connect.png" >
+    <img height="250" src="https://raw.githubusercontent.com/underautomation/UniversalRobots.vi/refs/heads/main/.github/assets/main-demo-io.png" >
+</p>
 
 
-![VI list](https://github.com/user-attachments/assets/4f95f70b-0ef7-44a0-958b-c663e9e4c804)
+---
+## 📌 Features
+The library is a set of .vi files grouped under a library ```UnderAutomation.Fanuc.lvlib```.
+
+📌 **Download:** [📥 UnderAutomation.UniversalRobots.lvlib](https://github.com/underautomation/UniversalRobots.vi/releases)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/underautomation/UniversalRobots.vi/refs/heads/main/.github/assets/project-items.png" >
+</p>
+
+### 🖧 **Connect to the robot**
