@@ -11,32 +11,23 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v7
 
+    # One zip per LabVIEW version, with the license agreement and the third-party notices
     - name: Find LabVIEW directories and create zips
       id: create_zips
       run: |
+        extra="License.md"
+        if [ -f THIRD-PARTY-NOTICES.txt ]; then extra="$extra THIRD-PARTY-NOTICES.txt"; fi
         for dir in LabVIEW_*; do
           if [ -d "$dir" ]; then
-            zip -r "UnderAutomation.UniversalRobots_${dir}.zip" "$dir"
+            zip -r "UnderAutomation.UniversalRobots_${dir}.zip" "$dir" $extra
           fi
         done
 
-    - name: Create GitHub Release
-      id: create_release
-      uses: actions/create-release@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Create the release
+      uses: ncipollo/release-action@v1
       with:
-        tag_name: ${{ github.ref }}
-        release_name: ${{ github.ref }}
-        draft: false
-        prerelease: false
-        body_path: whatsNew.md
-
-    - name: Upload release assets
-      uses: alexellis/upload-assets@0.4.0
-      env:
-        GITHUB_TOKEN: ${{ github.token }}
-      with:
-        asset_paths: '["*.zip"]'
+        artifacts: "*.zip"
+        bodyFile: "whatsNew.md"
+        token: ${{ secrets.GITHUB_TOKEN }}
